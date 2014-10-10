@@ -16,5 +16,15 @@ module MandrillInboundParser
     def event
       @raw["event"]
     end
+    
+    # get sender email
+    def email_from
+      @raw["msg"]["from_email"]
+    end
+
+    def sender_name
+      @raw["msg"]["from_name"]
+    end
+
   end
 end

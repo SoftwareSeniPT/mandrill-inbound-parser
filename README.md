@@ -1,6 +1,6 @@
 # MandrillInboundParser
 
-TODO: Write a gem description
+Parsing inbound email from mandrill into readable text
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: Write the code
 
 ## Contributing
 

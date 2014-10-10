@@ -12,4 +12,12 @@ describe "Parser" do
   it "event is inbound" do
     expect(@raw.event).to eq("inbound")
   end
+
+  it "returns the email sender" do
+    expect(@raw.email_from).to eq("gilang@softwareseni.com")
+  end
+
+  it "returns the email sender name" do
+    expect(@raw.sender_name).to eq("Gilang Mahardhika")
+  end
 end
