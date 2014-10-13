@@ -18,7 +18,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write the code
+    @message = MandrillInboundParser::Parser.new(raw)
+
+    # Return the Sender Email
+    @message.email_from
+
+    # Return the Sender Name
+    @message.sender_name
+
+## Available Methods
+    attachments
+    email_from
+    event
+    html
+    images
+    recipients
+    recipient_emails
+    recipient_names
+    sender_name
+    subject
+    text
+      
 
 ## Contributing
 
